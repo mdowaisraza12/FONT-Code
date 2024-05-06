@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+        font-family: chacha;
+        src: url(./Heading-Now-Variable.ttf);
+    }
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    html,
+    body {
+        cursor: default;
+        height: 100%;
+        width: 100%;
+    }
+
+    #page1 {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        color: #fff;
+        letter-spacing: 5px;
+        font-family: chacha;
+        font-size: 100px;
+        font-stretch: 0;
+    }
+
+    #page1 h1 span {
+        font-weight: 700;
+        font-stretch: normal;
+        transition: .2s;
+        
+    }
+
+    #page1 h1:hover {
+
+        span {
+            font-weight: 300;
+            font-stretch: 300%;
+        }
+
+    }
+</style>
+
+<body>
+    <div id="page1">
+        <h1>O<span>W</span>AIS</h1>
+    </div>
+
+</body>
+
+</html>
